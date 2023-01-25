@@ -46,3 +46,5 @@ def decode(message)
   words.each { |w| decoded_message = "#{decoded_message} #{decode_word(w)}" }
   decoded_message.strip
 end
+
+decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
